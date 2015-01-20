@@ -1,0 +1,15 @@
+GET /relative-redirect/2
+accept: */*
+host: httpbin.org
+accept-encoding: gzip, deflate
+
+302 HTTP/1.1
+server: nginx
+date: Tue, 20 Jan 2015 03:57:34 GMT
+content-type: text/html; charset=utf-8
+content-length: 0
+connection: keep-alive
+location: /relative-redirect/1
+access-control-allow-origin: *
+access-control-allow-credentials: true
+

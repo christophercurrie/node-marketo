@@ -1,0 +1,14 @@
+HEAD /get
+accept: */*
+host: httpbin.org
+accept-encoding: gzip, deflate
+
+200 HTTP/1.1
+server: nginx
+date: Tue, 20 Jan 2015 05:10:20 GMT
+content-type: application/json
+content-length: 262
+connection: keep-alive
+access-control-allow-origin: *
+access-control-allow-credentials: true
+

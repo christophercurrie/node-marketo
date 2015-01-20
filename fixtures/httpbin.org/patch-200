@@ -1,0 +1,35 @@
+PATCH /patch
+accept: */*
+host: httpbin.org
+accept-encoding: gzip, deflate
+content-type: application/json
+body: {\"message\":\"maker as fsck\"}
+
+200 HTTP/1.1
+server: nginx
+date: Tue, 20 Jan 2015 05:06:10 GMT
+content-type: application/json
+content-length: 432
+connection: keep-alive
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+{
+  "args": {}, 
+  "data": "{\"message\":\"maker as fsck\"}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Content-Length": "27", 
+    "Content-Type": "application/json", 
+    "Host": "httpbin.org", 
+    "User-Agent": "Restler for node.js"
+  }, 
+  "json": {
+    "message": "maker as fsck"
+  }, 
+  "origin": "50.132.71.91", 
+  "url": "http://httpbin.org/patch"
+}

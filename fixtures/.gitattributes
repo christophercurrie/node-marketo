@@ -1,0 +1,4 @@
+# All the files here have to be treated as binary, because
+# node-replay does not handle Windows line endings.
+
+* binary

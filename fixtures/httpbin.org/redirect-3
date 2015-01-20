@@ -1,0 +1,19 @@
+GET /redirect/3
+accept: */*
+host: httpbin.org
+accept-encoding: gzip, deflate
+
+302 HTTP/1.1
+server: nginx
+date: Tue, 20 Jan 2015 03:57:33 GMT
+content-type: text/html; charset=utf-8
+content-length: 247
+connection: keep-alive
+location: /relative-redirect/2
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>Redirecting...</title>
+<h1>Redirecting...</h1>
+<p>You should be redirected automatically to target URL: <a href="/relative-redirect/2">/relative-redirect/2</a>.  If not click the link.
