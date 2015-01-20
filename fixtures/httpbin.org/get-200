@@ -1,0 +1,26 @@
+GET /get
+accept: */*
+host: httpbin.org
+accept-encoding: gzip, deflate
+
+200 HTTP/1.1
+server: nginx
+date: Mon, 19 Jan 2015 23:16:28 GMT
+content-type: application/json
+content-length: 265
+connection: keep-alive
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Content-Length": "0", 
+    "Host": "httpbin.org", 
+    "User-Agent": "Restler for node.js"
+  }, 
+  "origin": "209.210.182.116", 
+  "url": "http://httpbin.org/get"
+}

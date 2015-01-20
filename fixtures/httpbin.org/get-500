@@ -1,0 +1,14 @@
+GET /status/500
+accept: */*
+host: httpbin.org
+accept-encoding: gzip, deflate
+
+500 HTTP/1.1
+server: nginx
+date: Tue, 20 Jan 2015 00:36:50 GMT
+content-type: text/html; charset=utf-8
+content-length: 0
+connection: keep-alive
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
